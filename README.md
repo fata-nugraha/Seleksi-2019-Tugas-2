@@ -10,48 +10,25 @@
   Data Storing
   <br>
   <br>
+  Peminat SBMPTN tahun 2018
+  <br>
+  <br>
+  oleh:<br>
+  Fata Nugraha - 13517109
 </h2>
 
 
-## Specifications
+## DBMS yang digunakan
 
-### Data Storing
+DBMS yang digunakan untuk storing data ini adalah MongoDB, dengan bantuan tool GUI MongoDB yaitu MongoDB Compass. DBMS ini dipilih karena struktur data yang dimiliki adalah array of object di dalam array of object. Jika menggunakan DBMS relasional, ada dua opsi yang dapat digunakan, yaitu dengan menaruh semua data di dalam satu tabel atau dengan memisahkan data menjadi beberapa tabel berbeda. Opsi pertama menimbulkan redundansi yang besar sedangkan opsi kedua membutuhkan operasi join untuk menggabungkan keseluruhan data. Oleh karena itu, saya mencoba DBMS non-relasional seperti MongoDB untuk menyimpan data ini. Kelebihannya, data menjadi lebih mudah dipahami  dan lebih mudah diolah karena struktur data awal sudah berupa json, dan MongoDB dapat langsung memproses data json. Selain itu, saya juga memperoleh pengetahuan baru tentang DBMS non-relasional yang belum pernah diajarkan di kuliah sebelumnya. Kesulitan yang saya alami saat mengerjakan tugas ini adalah format json yang tidak sesuai dengan ketentuan MongoDB (satu objek harus berada pada satu line) sehingga saya harus memformat ulang file json yang saya miliki.
 
-1. Lakukan _storing_ data yang didapatkan dari hasil _scrapping_ ke DBMS (Tugas 1).
+## Screenshot
+![SS_1](https://github.com/Ft-N/Seleksi-2019-Tugas-2/blob/master/screenshots/ss1.png)
+![SS_2](https://github.com/Ft-N/Seleksi-2019-Tugas-2/blob/master/screenshots/ss2.png)
 
-2. DBMS yang digunakan __dibebaskan__
-
-3. Contoh DBMS yang dapat digunakan (__tidak harus__ salah satu dari contoh di bawah)
-    - [PostgreSQL](https://www.postgresql.org/)
-    - [MySQL](https://www.mysql.com/)
-    - [CouchDB](http://couchdb.apache.org/)
-    - [MongoDB](https://www.mongodb.com/)
-
-4. Penggunaan _tools_ seperti PHPMyAdmin, HeidiSQL, Robo3t diperbolehkan.
-
-5. Dalam mengerjakan tugas, calon warga basdat terlebih dahulu melakukan _fork_ project github pada link berikut: https://github.com/wargabasdat/Seleksi-2019-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan _pull request_ dengan nama ```TUGAS_SELEKSI_2_[NIM]```
-
-6. Pada _repository_ tersebut, calon warga basdat harus mengumpulkan bukti penyimpanan data pada DBMS. _repository_ Tugas 2 terdiri dari folder `data`, `screenshots` dan `export`. 
-    - _Folder_ `data` berisi data hasil dari _scrapping_, 
-    - _folder_ `screenshot` berisi tangkapan layar bukti dari penyimpanan data ke DBMS, sedangkan 
-    - _folder_ `export` berisi _file_ hasil _export_ dari DBMS (seperti `.sql`, `.json`, (1 saja yang didukung oleh DBMS)).
-
-7. Deadline pengumpulan tugas ini adalah __7 Juli 2019 Pukul 23.59__
-
-8. Data yang disimpan di DBMS nantinya akan digunakan untuk analisis dan visualisasi data.
-
-9. Berikan README yang __WELL DOCUMENTED__ dengan cara __override__ file README.md ini. README harus memuat minimal konten :
-    - Description of the DBMS (Why you choose it)
-    - Screenshot (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-    - Reference (Library used, etc)
-    - Author
-
-<h1 align="center">
-  <br>
-  Selamat Ber-Eksplorasi!
-  <br>
-  <br>
-</h1>
+## Reference
+https://www.mongodb.com/
+https://www.mongodb.com/products/compass
 
 <p align="center">
   <br>
