@@ -8,14 +8,18 @@
 <h2 align="center">
   <br>
   Data Storing
-  <br>
-  <br>
+</h2>
+
+<h3 align="center">
   Peminat SBMPTN tahun 2018
   <br>
   <br>
-  oleh:<br>
-  Fata Nugraha - 13517109
-</h2>
+  <br>
+  oleh:
+  <br>
+  Fata Nugraha/13517109
+  <br>
+</h3>
 
 
 ## DBMS yang digunakan
@@ -27,7 +31,8 @@ DBMS yang digunakan untuk storing data ini adalah MongoDB, dengan bantuan tool G
 ![SS_2](https://github.com/Ft-N/Seleksi-2019-Tugas-2/blob/master/screenshots/ss2.png)
 
 ## Reference
-https://www.mongodb.com/
+https://www.mongodb.com
+<br>
 https://www.mongodb.com/products/compass
 
 <p align="center">
