@@ -22,9 +22,15 @@
 </h3>
 
 
-## DBMS yang digunakan
+## DBMS Description
 
-DBMS yang digunakan untuk storing data ini adalah MongoDB, dengan bantuan tool GUI MongoDB yaitu MongoDB Compass. DBMS ini dipilih karena struktur data yang dimiliki adalah array of object di dalam array of object. Jika menggunakan DBMS relasional, ada dua opsi yang dapat digunakan, yaitu dengan menaruh semua data di dalam satu tabel atau dengan memisahkan data menjadi beberapa tabel berbeda. Opsi pertama menimbulkan redundansi yang besar sedangkan opsi kedua membutuhkan operasi join untuk menggabungkan keseluruhan data. Oleh karena itu, saya mencoba DBMS non-relasional seperti MongoDB untuk menyimpan data ini. Kelebihannya, data menjadi lebih mudah dipahami  dan lebih mudah diolah karena struktur data awal sudah berupa json, dan MongoDB dapat langsung memproses data json. Selain itu, saya juga memperoleh pengetahuan baru tentang DBMS non-relasional yang belum pernah diajarkan di kuliah sebelumnya. Kesulitan yang saya alami saat mengerjakan tugas ini adalah format json yang tidak sesuai dengan ketentuan MongoDB (satu objek harus berada pada satu line) sehingga saya harus memformat ulang file json yang saya miliki.
+I chose MongoDB for the data storing, with the help of another application called MongoDB Compass, which acts as a GUI to represent the data to be easily comprehensible.
+
+The main reason that I chose this DBMS, is due to its unique data structure that allows for the storing of composite objects within other composite objects while lacking consistency constraints for the collections' schemas. This allows for more versatile usage in contrast to relational DBMSs.
+
+Were I to choose a relational MongoDB, there would be two main approaches that can be used for this project. The first option is to put the whole data in one big table, which would cause a massive redundancy, while the second option involves putting the data into separate tables, which would require the usage of join operations to execute some queries. Since both options seem unappealing to me, I decided to adopt a non-relational DBMS like MongoDB for this project.
+
+One of the distinct advantages of using MongoDB lies in its capability in processing the JSON format. However, a certain difficulty also occurred because it is only later be known that the DBMS only accepts a certain JSON formatting, which demands that each entry must be written in a single line of JSON in the document. Said problem incurred the necessity to re-format my pre-procured JSON file.
 
 ## Screenshot
 ![SS_1](https://github.com/Ft-N/Seleksi-2019-Tugas-2/blob/master/screenshots/ss1.png)
