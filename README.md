@@ -22,15 +22,13 @@
 </h3>
 
 
-## DBMS Description
+## Deskripsi DBMS yang digunakan
 
-I chose MongoDB for the data storing, with the help of another application called MongoDB Compass, which acts as a GUI to represent the data to be easily comprehensible.
+DBMS yang saya pilih adalah MongoDB, dengan bantuan aplikasi GUI MongoDB Compass untuk mengolah data. Saya memilih MongoDB karena struktur data JSON yang saya punya memiliki array of objects di dalam array of objects dan masih ada banyak kemungkinan perubahan struktur data (schema). Menurut saya, MongoDB adalah alat yang tepat untuk menangani masalah ini.
 
-The main reason that I chose this DBMS, is due to its unique data structure that allows for the storing of composite objects within other composite objects while lacking consistency constraints for the collections' schemas. This allows for more versatile usage in contrast to relational DBMSs.
+Jika saya memilih DBMS relasional, ada dua cara yang dapat digunakan untuk menyimpan data tersebut. Cara pertama adalah menyimpan semua data ke dalam suatu tabel, tetapi cara ini akan menimbulkan redundansi yang sangat besar. Cara kedua adalah menyimpan data tersebut ke beberapa tabel terpisah, tetapi cara ini memerlukan proses join untuk menjalankan beberapa query. Oleh karena itu, saya memilih DBMS non-relasional seperti MongoDB untuk menyimpan data ini, sekaligus untuk memperkaya pengetahuan tentang DBMS yang belum pernah saya pelajari sebelumnya.
 
-Were I to choose a relational MongoDB, there would be two main approaches that can be used for this project. The first option is to put the whole data in one big table, which would cause a massive redundancy, while the second option involves putting the data into separate tables, which would require the usage of join operations to execute some queries. Since both options seem unappealing to me, I decided to adopt a non-relational DBMS like MongoDB for this project.
-
-One of the distinct advantages of using MongoDB lies in its capability in processing the JSON format. However, a certain difficulty also occurred because it is only later be known that the DBMS only accepts a certain JSON formatting, which demands that each entry must be written in a single line of JSON in the document. Said problem incurred the necessity to re-format my pre-procured JSON file.
+Masalah yang saya temui kali ini adalah MongoDB hanya mampu memproses data JSON dengan format tertentu, yaitu setiap entry harus dituliskan dalam baris yang berbeda, jadi saya harus memformat ulang file JSON yang saya miliki sebelum dapat dimasukkan ke DBMS.
 
 ## Screenshot
 ![SS_1](https://github.com/Ft-N/Seleksi-2019-Tugas-2/blob/master/screenshots/ss1.png)
